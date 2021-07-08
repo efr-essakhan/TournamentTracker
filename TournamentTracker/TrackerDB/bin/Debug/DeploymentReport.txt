@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Matchup] (Table)
+       [dbo].[MatchupEntry] (Table)
+       [dbo].[Person] (Table)
+       [dbo].[Prize] (Table)
+       [dbo].[Team] (Table)
+       [dbo].[TeamMember] (Table)
+       [dbo].[Tournament] (Table)
+       [dbo].[TournamentEntry] (Table)
+       [dbo].[TournamentPrize] (Table)
+       [dbo].[FK_Matchup_Team] (Foreign Key)
+       [dbo].[FK_MatchupEntry_Matchup] (Foreign Key)
+       [dbo].[FK_MatchupEntry_parentMatchup] (Foreign Key)
+       [dbo].[FK_MatchupEntry_Team] (Foreign Key)
+       [dbo].[FK_TeamMember_Team] (Foreign Key)
+       [dbo].[FK_TeamMember_Person] (Foreign Key)
+       [dbo].[FK_TournamentEntry_Tournament] (Foreign Key)
+       [dbo].[FK_TournamentEntry_Team] (Foreign Key)
+       [dbo].[FK_TournamentPrize_Prize] (Foreign Key)
+       [dbo].[FK_TournamentPrize_Tournament] (Foreign Key)
+
+** Supporting actions
