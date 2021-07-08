@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {}
+    "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {
+    "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "projectUniqueName": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
         "projectName": "TrackerUI",
-        "projectPath": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
-        "packagesPath": "C:\\Users\\xbox_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\obj\\",
+        "projectPath": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
+        "packagesPath": "C:\\Users\\Essa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xbox_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Essa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

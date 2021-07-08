@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xbox_\\.nuget\\packages\\": {}
+    "C:\\Users\\Essa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
       "projectName": "TrackerLibrary",
-      "projectPath": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
-      "packagesPath": "C:\\Users\\xbox_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xbox_\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\obj\\",
+      "projectPath": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\TrackerLibrary.csproj",
+      "packagesPath": "C:\\Users\\Essa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xbox_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Essa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
