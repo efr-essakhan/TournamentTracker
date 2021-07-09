@@ -42,9 +42,9 @@ namespace TrackerUI
             this.headerLabel.AutoSize = true;
             this.headerLabel.Font = new System.Drawing.Font("Segoe UI", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.headerLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.headerLabel.Location = new System.Drawing.Point(141, 43);
+            this.headerLabel.Location = new System.Drawing.Point(86, 44);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(547, 62);
+            this.headerLabel.Size = new System.Drawing.Size(662, 76);
             this.headerLabel.TabIndex = 14;
             this.headerLabel.Text = "Tournament Dashboard";
             // 
@@ -55,7 +55,7 @@ namespace TrackerUI
             this.loadExistingTournamentLabel.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.loadExistingTournamentLabel.Location = new System.Drawing.Point(204, 139);
             this.loadExistingTournamentLabel.Name = "loadExistingTournamentLabel";
-            this.loadExistingTournamentLabel.Size = new System.Drawing.Size(394, 45);
+            this.loadExistingTournamentLabel.Size = new System.Drawing.Size(479, 54);
             this.loadExistingTournamentLabel.TabIndex = 15;
             this.loadExistingTournamentLabel.Text = "Load Existing Tournament";
             // 
@@ -64,7 +64,7 @@ namespace TrackerUI
             this.loadExistingTournamentDropdown.FormattingEnabled = true;
             this.loadExistingTournamentDropdown.Location = new System.Drawing.Point(141, 211);
             this.loadExistingTournamentDropdown.Name = "loadExistingTournamentDropdown";
-            this.loadExistingTournamentDropdown.Size = new System.Drawing.Size(509, 45);
+            this.loadExistingTournamentDropdown.Size = new System.Drawing.Size(509, 53);
             this.loadExistingTournamentDropdown.TabIndex = 20;
             // 
             // loadTournamentButton
@@ -75,7 +75,7 @@ namespace TrackerUI
             this.loadTournamentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.loadTournamentButton.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.loadTournamentButton.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.loadTournamentButton.Location = new System.Drawing.Point(249, 268);
+            this.loadTournamentButton.Location = new System.Drawing.Point(249, 285);
             this.loadTournamentButton.Name = "loadTournamentButton";
             this.loadTournamentButton.Size = new System.Drawing.Size(304, 64);
             this.loadTournamentButton.TabIndex = 21;
@@ -99,10 +99,10 @@ namespace TrackerUI
             // 
             // TournamentDashboardForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(791, 489);
+            this.ClientSize = new System.Drawing.Size(852, 519);
             this.Controls.Add(this.createTournamentButton);
             this.Controls.Add(this.loadTournamentButton);
             this.Controls.Add(this.loadExistingTournamentDropdown);
@@ -110,7 +110,7 @@ namespace TrackerUI
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "TournamentDashboardForm";
             this.Text = "Tournament Dashboard";
             this.ResumeLayout(false);
