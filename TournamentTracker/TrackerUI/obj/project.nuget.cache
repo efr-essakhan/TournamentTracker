@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U98tqI4kMZc4aRfzSnWJba/JulRbK/htUs0wn6qMybYwdoIsWIvKzaWAch/Ao2paCg3HC/aw+lgIzcjgqUmwNg==",
+  "dgSpecHash": "RIEOLJ3ffe+rJ+paYEwKICLPlx19+f5nicFjC8FeOvcCu8H9jg20mJIsVuG6Qn4ydRQqzRu3jDDqMkXrjUfnyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Essa\\Documents\\GitHub\\TournamentTracker\\TournamentTracker\\TrackerUI\\TrackerUI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Essa\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

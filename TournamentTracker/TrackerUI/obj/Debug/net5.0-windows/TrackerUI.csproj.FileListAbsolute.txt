@@ -43,3 +43,5 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\ref\TrackerUI.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.pdb
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.genruntimeconfig.cache
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\TrackerUI.dll.config
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\Dapper.dll
