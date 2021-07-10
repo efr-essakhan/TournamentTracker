@@ -32,6 +32,11 @@ namespace TrackerLibrary
             }
         }
 
+        public static string CnnString(string name)
+        {
+
+        }
+
 
     }
 }
