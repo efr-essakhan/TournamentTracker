@@ -4,3 +4,7 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\bin
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\TrackerDB.sqlproj.AssemblyReference.cache
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\TrackerDB.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\TrackerDB.pdb
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\Model.xml
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\refactor.xml
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\postdeploy.sql
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerDB\obj\Debug\predeploy.sql

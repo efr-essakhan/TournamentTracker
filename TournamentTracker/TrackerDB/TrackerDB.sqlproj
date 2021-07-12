@@ -78,6 +78,7 @@
     <Build Include="dbo\Stored Procedures\spTeam_GetByTournament.sql" />
     <Build Include="dbo\Stored Procedures\spTeamMember_GetByTeam.sql" />
     <Build Include="dbo\Stored Procedures\spTournament_GetAll.sql" />
+    <Build Include="dbo\Stored Procedures\spPrize_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TrackerDB.refactorlog" />

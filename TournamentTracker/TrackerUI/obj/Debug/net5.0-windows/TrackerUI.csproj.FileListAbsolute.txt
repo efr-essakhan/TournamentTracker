@@ -45,3 +45,9 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.genruntimeconfig.cache
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\TrackerUI.dll.config
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\Dapper.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
