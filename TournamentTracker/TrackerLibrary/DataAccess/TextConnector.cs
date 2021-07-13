@@ -19,11 +19,22 @@ namespace TrackerLibrary.DataAccess
             //Convert the text to List<PrizeModel>
             List<PrizeModel> prizes = PrizesFile.FullFilePath().LoadFile().ConvertToPrizeModels();
 
-            int currentId = prizes.OrderByDescending(x => x.Id).First().Id + 1;
+            int currentId = 1;
+
+            if (prizes.Count > 0)
+            {
+                currentId = prizes.OrderByDescending(x => x.Id).First().Id + 1;
+
+            }
+
             model.Id = currentId;
 
             //Add new record with a new ID (max+1)
             prizes.Add(model);
+
+            prizes.SaveToPrizeFile(PrizesFile);
+
+            return model;
                
         }
     }

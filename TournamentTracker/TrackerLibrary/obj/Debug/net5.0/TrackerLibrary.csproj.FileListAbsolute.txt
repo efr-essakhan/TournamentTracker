@@ -9,3 +9,4 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerLibrar
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net5.0\TrackerLibrary.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net5.0\ref\TrackerLibrary.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net5.0\TrackerLibrary.pdb
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerLibrary\obj\Debug\net5.0\TrackerLibrary.csproj.AssemblyReference.cache
