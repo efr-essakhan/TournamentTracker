@@ -35,7 +35,8 @@ namespace TrackerLibrary.Models
 
         }
 
-        public PersonModel(string FirstName, string LastName, string Email, string CellphoneNumber)
+
+        public PersonModel(string FirstName, string LastName, string Email = null, string CellphoneNumber = null)
         {
             this.FirstName= FirstName;
             this.LastName = LastName;
@@ -43,6 +44,17 @@ namespace TrackerLibrary.Models
             this.CellphoneNumber = CellphoneNumber;
 
         }
+
+
+        public string FullName
+        {
+            get
+            {
+                return $"{FirstName} {LastName}";
+            }
+        }
+
+
 
     }
 }

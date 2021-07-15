@@ -8,9 +8,14 @@ using TrackerLibrary.Models;
 using Dapper;
 
 namespace TrackerLibrary.DataAccess
-{
+{/// <summary>
+/// Contains executions of the Stored Procedures
+/// </summary>
     public class SqlConnector : IDataConnection
     {
+
+        private const string db = "TrackerDB";
+
         /// <summary>
         /// Saves a new Prize to the database.
         /// </summary>
@@ -18,7 +23,7 @@ namespace TrackerLibrary.DataAccess
         /// <returns>The pirze information, including the Unique id.</returns>
         public PrizeModel CreatePrize(PrizeModel model)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("TrackerDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
                 var p = new DynamicParameters();
 
@@ -40,7 +45,7 @@ namespace TrackerLibrary.DataAccess
 
         public PersonModel CreatePerson(PersonModel model)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("TrackerDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
             {
                 var p = new DynamicParameters();
 
@@ -56,6 +61,17 @@ namespace TrackerLibrary.DataAccess
 
                 return model;
             }
+        }
+
+        List<PersonModel> IDataConnection.GetPerson_All()
+        {
+            List<PersonModel> output;
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString(db)))
+            {
+                output = connection.Query<PersonModel>("dbo.spPerson_GetAll").ToList();
+            }
+
+            return output;
         }
     }
 }

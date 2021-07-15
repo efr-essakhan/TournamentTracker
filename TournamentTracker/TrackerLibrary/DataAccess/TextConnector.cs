@@ -8,7 +8,9 @@ using TrackerLibrary.DataAccess.TextHelpers;
 
 namespace TrackerLibrary.DataAccess
 {
-
+/// <summary>
+/// Contains executions of the Stored Procedures
+/// </summary>
     public class TextConnector : IDataConnection
     {
         private const string PrizesFile = "PrizeModels.csv";
@@ -58,6 +60,11 @@ namespace TrackerLibrary.DataAccess
 
             return model;
 
+        }
+
+        List<PersonModel> IDataConnection.GetPerson_All()
+        {
+            return PersonsFile.FullFilePath().LoadFile().ConvertToPersonModel();
         }
     }
 }

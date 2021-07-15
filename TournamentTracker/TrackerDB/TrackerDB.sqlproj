@@ -74,7 +74,7 @@
     <Build Include="dbo\Stored Procedures\spPrize_GetByTournament.sql" />
     <Build Include="dbo\Stored Procedures\spMatchupEntry_GetByMatchup.sql" />
     <Build Include="dbo\Stored Procedures\spMatchup_GetByTournament.sql" />
-    <Build Include="dbo\Stored Procedures\spPeople_GetAll.sql" />
+    <Build Include="dbo\Stored Procedures\spPerson_GetAll.sql" />
     <Build Include="dbo\Stored Procedures\spTeam_GetByTournament.sql" />
     <Build Include="dbo\Stored Procedures\spTeamMember_GetByTeam.sql" />
     <Build Include="dbo\Stored Procedures\spTournament_GetAll.sql" />
