@@ -90,11 +90,11 @@ namespace TrackerUI
             this.addTeamMemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addTeamMemberButton.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.addTeamMemberButton.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.addTeamMemberButton.Location = new System.Drawing.Point(203, 297);
+            this.addTeamMemberButton.Location = new System.Drawing.Point(142, 297);
             this.addTeamMemberButton.Name = "addTeamMemberButton";
-            this.addTeamMemberButton.Size = new System.Drawing.Size(198, 53);
+            this.addTeamMemberButton.Size = new System.Drawing.Size(308, 53);
             this.addTeamMemberButton.TabIndex = 20;
-            this.addTeamMemberButton.Text = "Add Team Member";
+            this.addTeamMemberButton.Text = "Add Member";
             this.addTeamMemberButton.UseVisualStyleBackColor = true;
             // 
             // selectTeamMemberDropdown
@@ -143,12 +143,13 @@ namespace TrackerUI
             this.createMemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.createMemberButton.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.createMemberButton.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.createMemberButton.Location = new System.Drawing.Point(84, 332);
+            this.createMemberButton.Location = new System.Drawing.Point(63, 332);
             this.createMemberButton.Name = "createMemberButton";
-            this.createMemberButton.Size = new System.Drawing.Size(328, 53);
+            this.createMemberButton.Size = new System.Drawing.Size(458, 53);
             this.createMemberButton.TabIndex = 22;
-            this.createMemberButton.Text = " Add New Members";
+            this.createMemberButton.Text = " Create Member";
             this.createMemberButton.UseVisualStyleBackColor = true;
+            this.createMemberButton.Click += new System.EventHandler(this.createMemberButton_Click);
             // 
             // cellphoneValue
             // 

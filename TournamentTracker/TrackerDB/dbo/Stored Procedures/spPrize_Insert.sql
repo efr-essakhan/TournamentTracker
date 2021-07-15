@@ -3,7 +3,7 @@
 	@PlaceName nvarchar(50),
 	@PrizeAmount money,
 	@PrizePercentage float,
-	@id int = 0 output
+	@Id int = 0 output
 
 AS
 BEGIN
@@ -11,6 +11,6 @@ BEGIN
 	insert into dbo.Prize (PlaceNumber, PlaceName, PrizeAmount, PrizePercentage)
 	values (@PlaceNumber, @PlaceName, @PrizeAmount, @PrizeAmount)
 
-	select @id = SCOPE_IDENTITY();
+	select @Id = SCOPE_IDENTITY();
 END
 GO

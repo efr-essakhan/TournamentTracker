@@ -8,6 +8,11 @@ namespace TrackerLibrary.Models
 {
     public class PersonModel
     {
+
+        /// <summary>
+        /// The unique identifier for the prize.
+        /// </summary>
+        public int Id { get; set; }
         /// <summary>
         /// Represents the first name of the person.
         /// </summary>
@@ -24,6 +29,20 @@ namespace TrackerLibrary.Models
         /// Represents the cell phone of the person.
         /// </summary>
         public string CellphoneNumber { get; set; }
+
+        public PersonModel()
+        {
+
+        }
+
+        public PersonModel(string FirstName, string LastName, string Email, string CellphoneNumber)
+        {
+            this.FirstName= FirstName;
+            this.LastName = LastName;
+            this.Email = Email;
+            this.CellphoneNumber = CellphoneNumber;
+
+        }
 
     }
 }
