@@ -7,12 +7,17 @@ using TrackerLibrary.Models;
 
 namespace TrackerLibrary.DataAccess
 {
+    /// <summary>
+    /// Methods to execute stored proceduures depending on the DB type used.
+    /// </summary>
     public interface IDataConnection
     {
 
         PrizeModel CreatePrize(PrizeModel model);
 
         PersonModel CreatePerson(PersonModel model);
+
+        TeamModel CreateTeam(TeamModel model);
 
         List<PersonModel> GetPerson_All();
 
