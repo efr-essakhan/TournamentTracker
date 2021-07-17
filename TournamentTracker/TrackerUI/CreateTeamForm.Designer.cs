@@ -229,9 +229,9 @@ namespace TrackerUI
             this.teamMembersListBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.teamMembersListBox.FormattingEnabled = true;
             this.teamMembersListBox.ItemHeight = 45;
-            this.teamMembersListBox.Location = new System.Drawing.Point(638, 65);
+            this.teamMembersListBox.Location = new System.Drawing.Point(667, 65);
             this.teamMembersListBox.Name = "teamMembersListBox";
-            this.teamMembersListBox.Size = new System.Drawing.Size(579, 542);
+            this.teamMembersListBox.Size = new System.Drawing.Size(550, 542);
             this.teamMembersListBox.TabIndex = 22;
             // 
             // removeSelectedMemberButton

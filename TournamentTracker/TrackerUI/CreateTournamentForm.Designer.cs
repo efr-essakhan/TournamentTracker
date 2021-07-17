@@ -126,6 +126,7 @@ namespace TrackerUI
             this.createNewTeamLink.TabIndex = 16;
             this.createNewTeamLink.TabStop = true;
             this.createNewTeamLink.Text = "Create New";
+            this.createNewTeamLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.createNewTeamLink_LinkClicked);
             // 
             // addTeamButton
             // 
@@ -157,6 +158,7 @@ namespace TrackerUI
             this.createPrizeButton.TabIndex = 18;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // tournamentTeamsListBox
             // 
@@ -193,6 +195,7 @@ namespace TrackerUI
             this.deleteSelectedPrizeButton.TabIndex = 22;
             this.deleteSelectedPrizeButton.Text = "Delete Selected";
             this.deleteSelectedPrizeButton.UseVisualStyleBackColor = true;
+            this.deleteSelectedPrizeButton.Click += new System.EventHandler(this.deleteSelectedPrizeButton_Click);
             // 
             // deleteSelectedPlayerButton
             // 
