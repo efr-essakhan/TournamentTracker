@@ -104,6 +104,15 @@ namespace TrackerLibrary.DataAccess
             }
         }
 
+
+        public TournamentModel CreateTournament(TournamentModel model)
+        {
+            using (IDbConnection connection = new SqlConnection(GlobalConfig.CnnString(db)))
+            {
+
+            }
+        }
+
         public List<TeamModel> GetTeam_All()
         {
             //Connect into db and retrieve team.
@@ -131,5 +140,6 @@ namespace TrackerLibrary.DataAccess
             return teams;
 
         }
+
     }
 }
