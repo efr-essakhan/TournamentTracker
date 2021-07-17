@@ -63,6 +63,11 @@ namespace TrackerLibrary.DataAccess
             return model;
         }
 
+        public List<TeamModel> GetTeam_All()
+        {
+            throw new NotImplementedException();
+        }
+
         PersonModel IDataConnection.CreatePerson(PersonModel model)
         {
             List<PersonModel> persons = PersonsFile.FullFilePath().LoadFile().ConvertToPersonModel();

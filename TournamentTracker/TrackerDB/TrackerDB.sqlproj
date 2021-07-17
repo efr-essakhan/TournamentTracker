@@ -82,6 +82,7 @@
     <Build Include="dbo\Stored Procedures\spPerson_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spTeam_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spTeamMember_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\spTeam_GetAll.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TrackerDB.refactorlog" />

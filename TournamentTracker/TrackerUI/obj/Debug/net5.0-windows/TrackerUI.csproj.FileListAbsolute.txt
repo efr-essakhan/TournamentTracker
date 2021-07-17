@@ -30,7 +30,6 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.csproj.AssemblyReference.cache
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.CreatePrizeForm.resources
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.CreateTeamForm.resources
-C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.tournamentP.resources
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.TournamentDashboardForm.resources
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.TournamentViewerForm.resources
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.csproj.GenerateResource.cache
@@ -51,3 +50,4 @@ C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Essa\Documents\GitHub\TournamentTracker\TournamentTracker\TrackerUI\obj\Debug\net5.0-windows\TrackerUI.CreateTournamentForm.resources
