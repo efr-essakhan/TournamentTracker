@@ -90,11 +90,6 @@ namespace TrackerUI
                 output = false;
             }
 
-            if (prizeAmount <= 0 && prizePercentage <= 0)
-            {
-                output = false;
-            }
-
             if (!(prizePercentage >= 0 && prizePercentage <= 100))
             {
                 output = false;

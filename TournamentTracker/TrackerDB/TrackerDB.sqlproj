@@ -60,6 +60,8 @@
     <Folder Include="dbo\Tables" />
     <Folder Include="PublishLocations" />
     <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="dbo\Stored Procedures\Matchup" />
+    <Folder Include="dbo\Stored Procedures\Tournament" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Prize.sql" />
@@ -72,17 +74,20 @@
     <Build Include="dbo\Tables\Matchup.sql" />
     <Build Include="dbo\Tables\MatchupEntry.sql" />
     <Build Include="dbo\Stored Procedures\spPrize_GetByTournament.sql" />
-    <Build Include="dbo\Stored Procedures\spMatchupEntry_GetByMatchup.sql" />
-    <Build Include="dbo\Stored Procedures\spMatchup_GetByTournament.sql" />
     <Build Include="dbo\Stored Procedures\spPerson_GetAll.sql" />
     <Build Include="dbo\Stored Procedures\spTeam_GetByTournament.sql" />
     <Build Include="dbo\Stored Procedures\spTeamMember_GetByTeam.sql" />
-    <Build Include="dbo\Stored Procedures\spTournament_GetAll.sql" />
     <Build Include="dbo\Stored Procedures\spPrize_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spPerson_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spTeam_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spTeamMember_Insert.sql" />
     <Build Include="dbo\Stored Procedures\spTeam_GetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Matchup\spMatchup_GetByTournament.sql" />
+    <Build Include="dbo\Stored Procedures\Matchup\spMatchupEntry_GetByMatchup.sql" />
+    <Build Include="dbo\Stored Procedures\Tournament\spTournament_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Tournament\spTournament_GetAll.sql" />
+    <Build Include="dbo\Stored Procedures\Tournament\spTournamentPrize_Insert.sql" />
+    <Build Include="dbo\Stored Procedures\Tournament\spTournamentEntry_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="TrackerDB.refactorlog" />

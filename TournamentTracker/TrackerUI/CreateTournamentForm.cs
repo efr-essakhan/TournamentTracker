@@ -114,5 +114,85 @@ namespace TrackerUI
                 WireUpList();
             }
         }
+
+        private void createTournamentButton_Click(object sender, EventArgs e)
+        {
+            if (isValid())
+            {
+             
+
+
+                TournamentModel tournamentModel = new TournamentModel(tournamentNameValue.Text, entryFeeValue.Text, selectedTeams, selectedPrizes);
+
+                //Create tournament
+                //Create tournamentEntry
+                //Create tournamentPrize
+                GlobalConfig.Connection.CreateTournament(tournamentModel);
+                //Create our matchups
+
+            }
+            else
+            {
+                MessageBox.Show("Form input incorrect.");
+            }
+           
+        }
+
+        private bool isValid()
+        {
+            bool output = true;
+
+            if (!(tournamentNameValue.Text.Length > 0))
+            {
+                output = false;
+            }
+
+
+            if (!(entryFeeValue.Text.Length > 0))
+            {
+                output = false;
+            }
+
+            decimal entryFee = 0;
+
+            if (!decimal.TryParse(entryFeeValue.Text, out entryFee))
+            {
+                output = false;
+            }
+
+            if (entryFee <= 0)
+            {
+                output = false;
+            }
+
+            if (!(selectedTeams.Count > 0))
+            {
+                output = false;
+            }
+
+            if (!(selectedPrizes.Count > 0))
+            {
+                output = false;
+            }
+
+            if (!(roundsValue.Text.Length > 0))
+            {
+                output = false;
+            }
+
+            int rounds = 0;
+            if (!int.TryParse(roundsValue.Text, out rounds))
+            {
+                output = false;
+            }
+
+            if (!(rounds >= 1))
+            {
+                output = false;
+            }
+
+            return output;
+
+        }
     }
 }

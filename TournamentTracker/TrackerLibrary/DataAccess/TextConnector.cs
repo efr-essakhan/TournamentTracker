@@ -16,6 +16,7 @@ namespace TrackerLibrary.DataAccess
         private const string PrizesFile = "PrizeModels.csv";
         private const string PersonsFile = "PersonModels.csv";
         private const string TeamFile = "TeamModels.csv";
+        private const string TournamentFile = "TournamentModels.csv";
 
         public PrizeModel CreatePrize(PrizeModel model)
         {
@@ -63,9 +64,14 @@ namespace TrackerLibrary.DataAccess
             return model;
         }
 
-        public List<TeamModel> GetTeam_All()
+        public TournamentModel CreateTournament(TournamentModel model)
         {
             throw new NotImplementedException();
+        }
+
+        public List<TeamModel> GetTeam_All()
+        {
+            return TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PersonsFile);
         }
 
         PersonModel IDataConnection.CreatePerson(PersonModel model)
