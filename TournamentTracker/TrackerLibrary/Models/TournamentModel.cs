@@ -36,12 +36,7 @@ namespace TrackerLibrary.Models
         ///
 
         public decimal EntryFee { get; set; }
-        /// <summary>
-        /// Holds the teams that are entered to participate in the tournament.
-        /// </summary>
-        /// 
 
-        public List<TeamModel> EnteredTeams { get; set; } = new List<TeamModel>();
 
         /// <summary>
         /// holds a bit on wether active or not.
@@ -49,6 +44,11 @@ namespace TrackerLibrary.Models
         public int Active { get; set; }
 
 
+        /// <summary>
+        /// Holds the teams that are entered to participate in the tournament.
+        /// </summary>
+        /// 
+        public List<TeamModel> EnteredTeams { get; set; } = new List<TeamModel>();
 
         /// <summary>
         /// Holds the prizes that can be won to different place holders at the end of the tournament.

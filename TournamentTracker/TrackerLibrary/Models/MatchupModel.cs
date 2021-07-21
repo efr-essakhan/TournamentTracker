@@ -9,6 +9,8 @@ namespace TrackerLibrary.Models
     public class MatchupModel
     {
 
+        public int Id { get; set; }
+
         /// <summary>
         /// Holds the two entries for this matchup.
         /// </summary>

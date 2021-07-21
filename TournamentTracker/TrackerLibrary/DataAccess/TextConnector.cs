@@ -11,7 +11,7 @@ namespace TrackerLibrary.DataAccess
 /// <summary>
 /// Contains executions of the Stored Procedures
 /// </summary>
-    public class TextConnector : IDataConnection
+    public partial class TextConnector : IDataConnection
     {
         private const string PrizesFile = "PrizeModels.csv";
         private const string PersonsFile = "PersonModels.csv";
@@ -45,6 +45,7 @@ namespace TrackerLibrary.DataAccess
 
         public TeamModel CreateTeam(TeamModel model)
         {
+            //Convert text file to model
             List<TeamModel> teams = TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PersonsFile);
 
             int currentId = 1;
@@ -64,17 +65,30 @@ namespace TrackerLibrary.DataAccess
             return model;
         }
 
-        public TournamentModel CreateTournament(TournamentModel model)
+        public void CreateTournament(TournamentModel model)
         {
-            throw new NotImplementedException();
+            List<TournamentModel> tournaments = TournamentFile.FullFilePath().LoadFile().ConvertToTournamentModels(TeamFile, PersonsFile, PrizesFile);
+
+            int currentId = 1;
+
+            if (tournaments.Count > 0)
+            {
+                currentId = tournaments.OrderByDescending(x => x.Id).First().Id + 1;
+            }
+
+
+            model.Id = currentId;
+
+            tournaments.Add(model); //add the new team to the 'tournaments' list (which is a list created from the text file storage)
+
+            //Save with the new entry back to the team file
+            tournaments.SaveToTournamentFile(TournamentFile);
+
         }
 
-        public List<TeamModel> GetTeam_All()
-        {
-            return TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PersonsFile);
-        }
+  
 
-        PersonModel IDataConnection.CreatePerson(PersonModel model)
+        public PersonModel CreatePerson(PersonModel model)
         {
             List<PersonModel> persons = PersonsFile.FullFilePath().LoadFile().ConvertToPersonModel();
 
@@ -95,9 +109,26 @@ namespace TrackerLibrary.DataAccess
 
         }
 
-        List<PersonModel> IDataConnection.GetPerson_All()
+    }
+
+
+    /// <summary>
+    /// For retrieving models NOT updating them.
+    /// </summary>
+    public partial class TextConnector : IDataConnection
+    {
+
+
+        public List<PersonModel> GetPerson_All()
         {
             return PersonsFile.FullFilePath().LoadFile().ConvertToPersonModel();
         }
+
+        public List<TeamModel> GetTeam_All()
+        {
+            return TeamFile.FullFilePath().LoadFile().ConvertToTeamModels(PersonsFile);
+        }
+
     }
+
 }
