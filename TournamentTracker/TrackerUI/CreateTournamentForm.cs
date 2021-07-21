@@ -119,16 +119,18 @@ namespace TrackerUI
         {
             if (isValid())
             {
-             
 
-
-                TournamentModel tournamentModel = new TournamentModel(tournamentNameValue.Text, entryFeeValue.Text, selectedTeams, selectedPrizes);
 
                 //Create tournament
                 //Create tournamentEntry
                 //Create tournamentPrize
+                TournamentModel tournamentModel = new TournamentModel(tournamentNameValue.Text, entryFeeValue.Text, selectedTeams, selectedPrizes);
+
+            
                 GlobalConfig.Connection.CreateTournament(tournamentModel);
-                //Create our matchups
+
+                TournamentLogic.CreateRounds(tournamentModel);
+           
 
             }
             else
