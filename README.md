@@ -9,7 +9,7 @@ It's meant to help you track rounds, games and prizes during a tournament.
 ## What i Learned
 - C# static classes, interfaces, inheritance
 - C# Naming conventions,
-- SQL DB design using Microsoft Sql Server Management Studio 18
+- SQL DB design using SQL Database Project (in Visual Studio 2019)
 - SQL procedures
 - Windows Forms
 
